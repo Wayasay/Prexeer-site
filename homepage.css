@@ -1,0 +1,960 @@
+body{
+    background-color: rgb(15, 21, 15);
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+p{
+    font-weight:normal;
+}
+.header{
+    display: flex;
+    width: 1100px;
+    height: 44px;
+    margin: 5px auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sub-header1,
+.sub-header2 {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  color: #0065fe;
+}
+
+.scimg{
+    display: flex;
+    align-items: center;
+    
+}
+nav {
+    display: flex;
+    flex: 3 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  nav li a {
+    font-size: 18px;
+  }
+  
+  nav li{
+    font-size: 16px;
+  }
+  
+  nav li {
+    list-style-type: none;
+  }
+  
+  nav li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  .first-link a {
+    color: #0065fe;
+  }
+  
+  .sub-header2 button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 18px;
+    border: 1px solid #0065fe;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+ 
+
+.firstpart{
+    display:flex;
+    align-items: center;
+    width:100%;
+    margin: auto;
+    justify-content:space-around;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 19%;
+}
+.Intro{
+    font-size: 50px;
+}
+.firstparagraph{
+    margin-left: 12px;
+    margin-top: 50px;
+    color: white;
+}
+.arrow{
+    position: absolute;
+    top:248px;
+    left:200px;
+    
+}
+.input1{
+   background-color: white;
+   border: 3px solid rgb(26, 86, 26);
+   padding-top: 7px;
+   padding-bottom: 7px;
+   margin-top: 40px;
+}
+input{
+    margin-left: 12px;
+    border: none;
+}
+
+.subs{
+    margin-left: 47%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 7px;
+}
+.arrow{
+    width: 110px;
+
+}
+.officeimg{
+    width: 300px;
+    margin-top: 70px;
+    margin-right: 16%;
+    z-index: 4;
+}
+.picrectangle{
+    width: 20.5%;
+    position: absolute;
+    right: 352px;
+    top: 90px;
+}
+.rater p{
+    font-weight: bolder;
+    font-size:9px
+}
+.rater{
+    background-color: white;
+    padding-left: 0.3%;
+    font-size: 7px;
+    font-weight: bolder;
+    align-items: center;
+    position: absolute;
+    right: 569px;
+    top:49px;
+    z-index: 8;
+    border-radius:7px ;
+    vertical-align: middle;
+}
+.topagency{
+    background-color: white;
+    padding-left: 0.3%;
+    font-size: 4px;
+    position: absolute;
+    right:310px;
+    bottom: 42px;
+    z-index: 9;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+.topagency p{
+    font-size: 9px;
+    font-weight: bold;
+    
+}
+.rater img, .topagency img{
+    width: 13%;
+}
+.orangeziggy{
+    position: absolute;
+    right: 290px;
+    top: 2px;
+}
+.ziggypointer{
+    position: absolute;
+    width: 4%;
+    top: 340px;
+    right: 690px;
+}
+.orangestar{
+    position: absolute;
+    top:470px;
+    left: 340px;
+}
+.greenstar{
+    position: absolute;
+    top:40px;
+    left:520px;
+}
+.logo{
+    height: 80px;
+    margin-top: 10%;
+    background-color: rgba(2, 43, 2, 0.942);
+    padding-left: 25px;
+    text-align: center;
+    padding-top: 26px;
+}
+.aboutbtn{
+    background-color: transparent;
+    color: rgb(99, 191, 65);
+    border: 1.4px solid gray;
+    width: 4.8%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: -6px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.about{
+    position: relative;
+    margin-bottom: 18%;
+}
+.abt{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.orangevector{
+    position: absolute;
+    left: 40%;
+}
+.greenvector{
+    position: absolute;
+    top:6%;
+    left:9%;
+}
+.signa{
+    position: absolute;
+    top:3%;
+    right: 32%;
+}
+.aboutfirstchild{
+    margin-left: 14%;
+    margin-top: 5%;
+    font-size: 25px;
+}
+.second-intro{
+    color: white;
+}
+.aboutwriteup{
+    margin-left: 10%;
+    margin-top: 10%;
+    position: relative;
+}
+.aboutwriteup p{
+    font-size: 18px;
+}
+.aboutphotos{
+    position: absolute;
+    bottom:39%;
+    left: 63%;
+}
+.aboutphoto{
+    position: absolute;
+    left: 63%;
+    top:63%;
+}
+.aboutpic{
+    position: absolute;
+    left: 43%;
+    top: 5%;
+}
+
+
+.readmore{
+    margin-left: 9.8%;
+    color: green;
+    font-weight: bold;
+    padding-top: 2%;
+}
+.services{
+    margin-top: 12%;
+    padding-left: 15%;
+    position: relative;
+}
+.servicebtn{
+    background-color: transparent;
+    color: green;
+    border: 1.4px solid gray;
+    width: 6.2%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: -6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.serviceheader{
+    font-size: 55px;
+    color: white;
+}
+.servicetext{
+    letter-spacing: 0.05em;
+    color: white;
+}
+.greenbox{
+    position: absolute;
+    top:9%;
+    right:35%;
+}
+.orangesign{
+    position: absolute;
+    right:23%;
+    top:39%;
+}
+.lightgreenpolygon{
+    position: absolute;
+    left: 10%;
+    top:56%;
+}
+.greenervector{
+    position: absolute;
+    right:36%;
+    top:92%;
+    width: 2%;
+}
+.servicessection2{
+    margin-top: 8%;
+    margin-left: 9%;
+    position: relative;
+    color: white;
+    position: relative;
+}
+
+.brandgroup p img,
+.seo p img,
+.advert p img{
+    vertical-align:middle;
+} 
+
+.servicesphoto{
+    position:absolute;
+    left: 47%;
+    top: 7px;
+    width: 500px;
+}
+.darkgreenbox{
+    position: absolute;
+    top:107%;
+    left: 2%;
+}
+.signatureservice{
+    position: absolute;
+    left: 51%;
+    top:137%;
+}
+.greenpolyservices{
+    position: absolute;
+    right:24%;
+}
+.viewmore{
+    margin-left: 47%;
+    margin-top: 16%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: none;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px  rgb(56, 55, 55);
+    font-size: large;
+    background-color: rgb(82, 204, 78);
+    
+}
+.quotetext{
+    margin-top: 22%;
+}
+.quotebox{
+    position: relative;
+}
+.quote{
+    padding-left: 9%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom:10px ;
+    background-color: rgb(126, 244, 132);
+    position: relative;
+    margin-right: 55px;
+    margin-left: 55px;
+}
+.quotefirstchild{
+    font-size: 36px;
+    font-family:cursive;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 56px;
+}
+.author{
+    text-align: center;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}
+.punctuation{
+    position: absolute;
+    top:37px;
+    left: 770px;
+}
+.mask{
+    position: absolute;
+    right:-18px;
+    top:185px;
+    filter: blur(1px);
+}
+.orangerectangle{
+    position: absolute;
+    top:28px;
+    right: 32px;
+    width: 24px;
+}
+.orangepolygon{
+    position: absolute;
+    top:159px;
+    right: 232px;
+    width: 40px;
+}
+.whiterectangle{
+    position: absolute;
+    top:183px;
+    left:270px;
+    width: 20px;
+}
+.blackstripe{
+    position: absolute;
+    top:2px;
+    left:1px;
+}
+.ziggy{
+    position: absolute;
+    bottom: 233px;
+    left: 14px;
+}
+.greenpolygon{
+    position: absolute;
+    bottom:340px;
+    left: 700px;
+}
+.greenpolygon2{
+    position: absolute;
+    left: 57px;
+}
+.portfolio{
+    margin-top: 12%;
+    padding-left: 15%;
+    position: relative;
+}
+.portfoliobtn{
+    background-color: transparent;
+    color: green;
+    border: 1.4px solid gray;
+    width: 4%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: -6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.portfolioheader{
+    font-size: 55px;
+    color: white;
+}
+.portfoliosection2{
+    position: relative;
+}
+.portfoliotext{
+    color: white;
+}
+.orangevectorp{
+    position: relative;
+    bottom: 203px;
+    left: -55px;
+}
+.orangetriangle{
+    position: absolute;
+    left: 510px;
+    top: 270px;
+    width: 3%;
+}
+.greenvectorp{
+    position: absolute;
+    bottom: 220px;
+    right: 340px;
+}
+.greenline, .redline{
+    position: absolute;
+}
+.cocacola, .nescafe, .kimo, .frozenpeas{
+    background-color: rgb(193, 231, 136);
+    padding-left: 20px;
+    width: 42%;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 29px;
+    border-radius: 35px;
+    margin-left: 9%;
+    margin-top: 6%;
+    padding-bottom: 1%;
+    z-index: 4;
+}
+.nescafe, .frozenpeas{
+    margin-left: 55%;
+}
+
+.cocacola-header, .nescafe-header, .kimo-header, .peas-header{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.cocacola-writeup, .nescafe-writeup, .kimo-writeup, .peas-writeup{
+font-size: 14px;
+margin-top: -4%;
+width: 300px;
+white-space: nowrap;
+}
+.kimo{
+    margin-left: 9%;
+}
+.direction{
+    position: absolute;
+    right: 50px;
+    bottom: 14px;
+}
+
+.viewmo{
+    margin-top: 15%;
+    margin-left: 45%;
+    background-color: rgb(193, 231, 136);
+    width: 200px;
+  height: 200px; 
+  border-radius: 50%;
+  
+}
+.viewmo p{
+    rotate: 100deg;
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center bottom;
+  }
+  
+.viewmo img{
+    width: 83%;
+    margin-top: -15%;
+    margin-left: 5%;
+}
+.statistics, .membership
+, .testimonials
+{
+    margin-top: 12%;
+    padding-left: 15%;    
+}
+.statisticsbtn{
+    background-color: transparent;
+    color: green;
+    border: 1.4px solid gray;
+    width: 4%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: -6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.statisticsheader{
+    font-size: 55px;
+    color: white;
+}
+.statisctics p{
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+.statisticstext{
+    color: white;
+}
+.statisticssection2{
+    margin-top: 6%;
+    position: relative;
+}
+.strategy{
+    margin-left: 17%;
+    display: flex;
+    margin-bottom: 3%;
+}
+.eightynine,.twelvek{
+    display: inline;
+    width: 70px;
+    height: 40px;
+    border:  1.4px solid gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 34px;
+    margin-top: 2px;
+    border-radius: 9px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.strategysucess{
+    margin-left: 2%;
+    color: white;
+    line-height: 17px;
+}
+.SS{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: -39px;
+}
+.pp{
+    font-weight: 300;
+    padding-top: -30px;
+}
+.thirty{
+    display: inline;
+    width: 70px;
+    height: 40px;
+    border:  1.4px solid gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 34px;
+    margin-top: 2px;
+    border-radius: 9px;
+    text-align: right;
+    font-weight: bolder;
+    color: white;
+}
+
+.strategy2{
+    margin-left: 9%;
+    display: flex;
+}
+.strategy3{
+    margin-left: 17%;
+    display: flex;
+    margin-top: 3%;
+    color: white;
+}
+.strategyphoto{
+    position: absolute;
+    right: 222px;
+    top:0px;
+    width: 400px;
+}
+.Contactus{
+    margin-top: 8%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: none;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px  rgb(56, 55, 55);
+    font-size: large;
+    background-color: rgb(82, 204, 78);
+    margin-left: 46%;
+}
+.membershipbtn{
+    background-color: transparent;
+    color: green;
+    border: 1.4px solid gray;
+    width: 9%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: -6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.membershipheader{
+    font-size: 40px;
+    color: white;
+}
+.price p img{
+    vertical-align: middle;
+    width: 2px;
+    font-size: 5px;
+}
+.Membershipplans{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5%;
+    
+}
+.Staffed, .Standard{
+    width: 500px;
+    padding-left: 2%; 
+}
+.staffedheader,.standardheader{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.price{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Staffed{
+    background-color: yellow;
+    margin-left: 7%;
+    position: relative;
+}
+.popular{
+    position: absolute;
+    background-color: rgb(86, 218, 86);
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    transform: rotate(-18deg);
+    left: -28px;
+    top: -10px;
+}
+.Standard{
+    background-color: aqua; 
+    position: relative; 
+}
+.best{
+    position: absolute;
+    background-color: rgb(198, 115, 115);
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transform: rotate(-12deg);
+    left: -28px;
+    top: -10px;
+}
+.getstarted{
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-left: 9%;
+    background-color: black;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    border: none;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px  rgb(56, 55, 55);
+    font-size: 20px;
+}
+.testimonialsbtn{
+    background-color: transparent;
+    color: green;
+    border: 1.4px solid gray;
+    width: 6.2%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: -6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.testimonialstext{
+    font-size: 17px;
+    
+}
+.testimonialsheader{
+    font-size: 55px;
+    color: white;
+}
+.feedbacks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+    margin-top: 10%;
+    column-gap: -16%;
+    row-gap: 15%;
+}
+.customer{
+    border: 1px solid rgb(125, 125, 125);
+    width: 400px;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: rgb(203, 201, 201);
+    font-size: 15px;
+    text-align:center;
+}
+.customerprofilepic{
+    width: 40px;
+}
+.customerdescription{
+    display: grid;
+grid-template-columns: 60px 1fr;
+}
+.customerdetails{
+    margin-top: -15px;
+}
+.customerrole{
+    margin-top: -14px;
+    font-size: 12px;
+    line-height: 10px;
+}
+.Readmore{
+    margin-top: 10%;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    border: none;
+    padding-bottom: 14px;
+    box-shadow: 5px 5px 5px  rgb(56, 55, 55);
+    font-size: large;
+    background-color: rgb(82, 204, 78);
+    margin-left: 46%;
+    border-radius: 9px;
+}
+.workwithus{
+    margin-top: 20%;
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 6%;
+   margin-left:6%;
+   margin-right: 6%;
+}
+
+.workwithusbtn{
+    background-color: transparent;
+    color: black;
+    border: 1.1px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    padding-right: 10px;
+    width: 6%;
+    margin-top: 25px;
+    margin-left: 47%;
+    font-size: 13px;
+}
+.collabfirstchild{
+    font-size: 45px;
+    font-weight: bold;
+}
+.collabsecondchild{
+    font-weight: lighter;
+    margin-top: -35px;
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+.getstartedd{
+    font-size: 18px;
+    background-color: transparent;
+    color: black;
+    border: 1.7px solid rgb(0, 0, 0);
+    padding-left: 22px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 22px;
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 45%;
+    font-weight: bold;
+}
+.lineb{
+    margin-top: 19%;
+    margin-left: 3%;
+}
+footer{
+    margin-top: 10%;
+}
+ul{
+    list-style: none;
+}
+
+.footerdetails{
+    max-width: 1220px;
+    margin: auto;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0px 4%;
+    display: inline-block;
+}
+.footerwriteup{
+    line-height: 22px;
+    color: antiquewhite;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(236, 236, 236);
+    height: 2px;
+    width: 50px;
+    box-sizing: border-box;
+}
+.footer-col ul:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    margin:11px ;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-links img{
+    display: inline-block;
+    width: 20px;
+    background-color: rgb(115, 190, 4);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 35%;
+
+}
+
+.footer-col .social-links a:hover{
+    color: rgba(90, 89, 45, 0.103);
+    background-color: #ebe2e2 ;
+}
